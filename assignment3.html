@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .colored-number {
+            font-weight: bold;
+        }
+        .top-link, .bottom-link {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: blue;
+        }
+        img {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        td:first-child {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Display numbers 1-10 with different colors -->
+    <h2>Numbers 1-10 with Different Colors</h2>
+    <div>
+        <p class="colored-number" style="color: red;">1</p>
+        <p class="colored-number" style="color: orange;">2</p>
+        <p class="colored-number" style="color: yellow;">3</p>
+        <p class="colored-number" style="color: green;">4</p>
+        <p class="colored-number" style="color: blue;">5</p>
+        <p class="colored-number" style="color: indigo;">6</p>
+        <p class="colored-number" style="color: violet;">7</p>
+        <p class="colored-number" style="color: pink;">8</p>
+        <p class="colored-number" style="color: brown;">9</p>
+        <p class="colored-number" style="color: gray;">10</p>
+    </div>
+
+    <!-- 2. Squares of numbers 1-10 -->
+    <h2>Squares of Numbers 1-10</h2>
+    <div>
+        <p>1<sup>2</sup> = 1</p>
+        <p>2<sup>2</sup> = 4</p>
+        <p>3<sup>2</sup> = 9</p>
+        <p>4<sup>2</sup> = 16</p>
+        <p>5<sup>2</sup> = 25</p>
+        <p>6<sup>2</sup> = 36</p>
+        <p>7<sup>2</sup> = 49</p>
+        <p>8<sup>2</sup> = 64</p>
+        <p>9<sup>2</sup> = 81</p>
+        <p>10<sup>2</sup> = 100</p>
+    </div>
+
+    <!-- 3. Ordered and unordered lists -->
+    <h2>Lists</h2>
+    <div>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ul>
+    </div>
+
+    <!-- 4. Display two addresses -->
+    <h2>Addresses</h2>
+    <div>
+        <p>
+            Dilbert H.<br>
+            1234 Anim Street<br>
+            P.O. Box 22222
+        </p>
+        <p style="margin-top: 50px; margin-left: 100px;">
+            Someone A. Person<br>
+            5555 Street Avenue<br>
+            Metropolitan, Metropolis 11111
+        </p>
+    </div>
+
+    <!-- 5. Links to jump between top and bottom -->
+    <h2>Jump Links</h2>
+    <a href="#bottom" class="top-link">Jump to Bottom</a>
+    <p id="bottom" style="margin-top: 800px;">This is the bottom of the page.</p>
+    <a href="#top" class="bottom-link">Jump to Top</a>
+
+    <!-- 6. Links to four different pages -->
+    <h2>Links</h2>
+    <div>
+        <a href="https://www.google.com" target="_blank">Google</a><br>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+        <a href="https://www.youtube.com" target="_blank">YouTube</a><br>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </div>
+
+    <!-- 7. Display five images with titles -->
+    <h2>Images</h2>
+    <img src="C:\Users\hp\Desktop\Ass3\googleimage.jpg" alt="Image 1" title="Title 1"style="width: 200px; height: 200px">
+    <br><br>
+    <img src="C:\Users\hp\Desktop\Ass3\pexels-mlkbnl-27164053.jpg" alt="Image 2" title="Title 2" style="width: 200px; height: 200px">
+    <br><br>
+    <img src="C:\Users\hp\Desktop\Ass3\pexels-clement-proust-363898785-29284804.jpg" alt="Image 3" title="Title 3" style="width: 200px; height: 200px">
+    <br><br>
+    <img src= "C:\Users\hp\Desktop\Ass3\pexels-nati-87264186-19634669.jpg" alt="Image 4" title="Title 4" style="width: 200px; height: 200px">
+    <br><br>
+    <img src="C:\Users\hp\Desktop\Ass3\pexels-eugenia-remark-5767088-19457056.jpg" alt="Image 5" title="Title 5" style="width: 200px; height: 200px">
+
+    <!-- 8. Image with a border, width, and height -->
+    <h2>Image with Border and Dimensions</h>
+    <img src="C:\Users\hp\Desktop\Ass3\pexels-marta-dzedyshko-1042863-20881841.jpg" alt="Bordered Image" style="border: 2px solid black; width: 200px; height: 200px;">
+
+    <!-- 9. Image linking to itself -->
+    <h2>Image Linking to Itself</h2>
+    <a href="C:\Users\hp\Desktop\Ass3\pexels-juan-luis-seco-1235220579-22812034.jpg"><img src="C:\Users\hp\Desktop\Ass3\pexels-juan-luis-seco-1235220579-22812034.jpg" alt="Clickable Image" style="width: 200px; height: 200px;"></a>
+
+    <!-- 10. Image linking to a search engine -->
+    <h2>Image Linking to Search Engine</h2>
+    <a href="https://www.google.com" target="_blank">
+        <img src= "C:\Users\hp\Desktop\Ass3\googleimage.jpg" alt="Google Image" style="width: 200px; height: 200px;">
+    </a>
+
+    <!-- 11. Stock prices table -->
+    <h2>Stock Prices</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Last Price</th>
+                <th>52 Week High</th>
+                <th>52 Week Low</th>
+                <th>PE Ratio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Microsoft</td>
+                <td>MSFT</td>
+                <td>86-3/8</td>
+                <td>119-15/16</td>
+                <td>75-1/2</td>
+                <td>56.09</td>
+            </tr>
+            <tr>
+                <td>Cisco Systems</td>
+                <td>CSCO</td>
+                <td>72-1/8</td>
+                <td>82</td>
+                <td>24-13/16</td>
+                <td>400.69</td>
+            </tr>
+            <tr>
+                <td>America Online</td>
+                <td>AOL</td>
+                <td>63</td>
+                <td>95-15/16</td>
+                <td>38-15/32</td>
+                <td>350.00</td>
+            </tr>
+            <tr>
+                <td>Qwest Communications</td>
+                <td>Q</td>
+                <td>44-7/16</td>
+                <td>66</td>
+                <td>25-3/4</td>
+                <td>74.06</td>
+            </tr>
+            <tr>
+                <td>Dell Computers</td>
+                <td>DELL</td>
+                <td>53-59/64</td>
+                <td>75-11/16</td>
+                <td>31-3/8</td>
+                <td>86.97</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
